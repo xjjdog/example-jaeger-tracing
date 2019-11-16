@@ -1,0 +1,806 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f08a5821-6ee0-4ad9-9ebf-d0c941b1b3a9" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/tutorial-04-feign-client/target/" />
+    <ignored path="$PROJECT_DIR$/tutorial-04-sc-server/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/opentracing/contrib/opentracing-spring-jaeger-cloud-starter/2.0.0/opentracing-spring-jaeger-cloud-starter-2.0.0.jar!/META-INF/maven/io.opentracing.contrib/opentracing-spring-jaeger-cloud-starter/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-18" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/opentracing/contrib/opentracing-spring-jaeger-starter/2.0.0/opentracing-spring-jaeger-starter-2.0.0.jar!/META-INF/maven/io.opentracing.contrib/opentracing-spring-jaeger-starter/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-532" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.properties" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/opentracing/contrib/opentracing-spring-jaeger-starter/2.0.0/opentracing-spring-jaeger-starter-2.0.0.jar!/META-INF/maven/io.opentracing.contrib/opentracing-spring-jaeger-starter/pom.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="spring.factories" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/opentracing/contrib/opentracing-spring-jaeger-starter/2.0.0/opentracing-spring-jaeger-starter-2.0.0.jar!/META-INF/spring.factories">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="JaegerAutoConfiguration.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/opentracing/contrib/opentracing-spring-jaeger-starter/2.0.0/opentracing-spring-jaeger-starter-2.0.0.jar!/io/opentracing/contrib/java/spring/jaeger/starter/JaegerAutoConfiguration.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1389">
+              <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/opentracing/contrib/opentracing-spring-web-starter/2.1.0/opentracing-spring-web-starter-2.1.0.jar!/META-INF/maven/io.opentracing.contrib/opentracing-spring-web-starter/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1242" />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TracedScheduledExecutorService.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/opentracing/contrib/opentracing-concurrent/0.3.0/opentracing-concurrent-0.3.0.jar!/io/opentracing/contrib/concurrent/TracedScheduledExecutorService.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/opentracing/contrib/opentracing-concurrent/0.3.0/opentracing-concurrent-0.3.0.jar!/META-INF/maven/io.opentracing.contrib/opentracing-concurrent/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TracedCallable.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/opentracing/contrib/opentracing-concurrent/0.3.0/opentracing-concurrent-0.3.0.jar!/io/opentracing/contrib/concurrent/TracedCallable.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TracedExecutor.class" pinned="false" current-in-tab="true">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/opentracing/contrib/opentracing-concurrent/0.3.0/opentracing-concurrent-0.3.0.jar!/io/opentracing/contrib/concurrent/TracedExecutor.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../elasticsearch-master" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/tutorial-04-sc-server/pom.xml" />
+        <option value="$PROJECT_DIR$/tutorial-04-sc-server/src/main/java/com/sayhiai/example/jaeger/totorial04/config/FeignAutoConfiguration.java" />
+        <option value="$PROJECT_DIR$/tutorial-04-sc-server/src/main/java/com/sayhiai/example/jaeger/totorial04/config/TracingClient.java" />
+        <option value="$PROJECT_DIR$/tutorial-04-sc-server/src/main/java/com/sayhiai/example/jaeger/totorial04/config/FeignSpanDecorator.java" />
+        <option value="$PROJECT_DIR$/tutorial-04-sc-server/src/main/java/com/sayhiai/example/jaeger/totorial04/config/HttpHeadersInjectAdapter.java" />
+        <option value="$PROJECT_DIR$/tutorial-04-feign-client/src/main/java/com/sayhiai/example/jaeger/totorial04/client/LoveYouClient.java" />
+        <option value="$PROJECT_DIR$/tutorial-04-sc-server/src/main/java/com/sayhiai/example/jaeger/totorial04/controller/LoveYouController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/tutorial-04-feign-client/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/tutorial-04-sc-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/tutorial-04-sc-server/src/main/java/com/sayhiai/example/jaeger/totorial04/App.java" />
+        <option value="$PROJECT_DIR$/tutorial-04-feign-client/src/main/java/com/sayhiai/example/jaeger/totorial04/App.java" />
+        <option value="$PROJECT_DIR$/tutorial-04-feign-client/src/main/java/com/sayhiai/example/jaeger/totorial04/controller/TestController.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1440" />
+    <option name="y" value="-157" />
+    <option name="width" value="1920" />
+    <option name="height" value="1006" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="example-jeager-opentracing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example-jaeger-opentracing-tutorial-004" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example-jeager-opentracing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example-jaeger-opentracing-tutorial-004" type="462c0819:PsiDirectoryNode" />
+              <item name="tutorial-04-feign-client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example-jeager-opentracing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example-jaeger-opentracing-tutorial-004" type="462c0819:PsiDirectoryNode" />
+              <item name="tutorial-04-feign-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example-jeager-opentracing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example-jaeger-opentracing-tutorial-004" type="462c0819:PsiDirectoryNode" />
+              <item name="tutorial-04-feign-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example-jeager-opentracing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example-jaeger-opentracing-tutorial-004" type="462c0819:PsiDirectoryNode" />
+              <item name="tutorial-04-feign-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example-jeager-opentracing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example-jaeger-opentracing-tutorial-004" type="462c0819:PsiDirectoryNode" />
+              <item name="tutorial-04-feign-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="totorial04" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example-jeager-opentracing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example-jaeger-opentracing-tutorial-004" type="462c0819:PsiDirectoryNode" />
+              <item name="tutorial-04-feign-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="totorial04" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example-jeager-opentracing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example-jaeger-opentracing-tutorial-004" type="462c0819:PsiDirectoryNode" />
+              <item name="tutorial-04-feign-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="totorial04" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example-jeager-opentracing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example-jaeger-opentracing-tutorial-004" type="462c0819:PsiDirectoryNode" />
+              <item name="tutorial-04-feign-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example-jeager-opentracing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example-jaeger-opentracing-tutorial-004" type="462c0819:PsiDirectoryNode" />
+              <item name="tutorial-04-sc-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example-jeager-opentracing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example-jaeger-opentracing-tutorial-004" type="462c0819:PsiDirectoryNode" />
+              <item name="tutorial-04-sc-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example-jeager-opentracing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example-jaeger-opentracing-tutorial-004" type="462c0819:PsiDirectoryNode" />
+              <item name="tutorial-04-sc-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example-jeager-opentracing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example-jaeger-opentracing-tutorial-004" type="462c0819:PsiDirectoryNode" />
+              <item name="tutorial-04-sc-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example-jeager-opentracing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example-jaeger-opentracing-tutorial-004" type="462c0819:PsiDirectoryNode" />
+              <item name="tutorial-04-sc-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="totorial04" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example-jeager-opentracing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example-jaeger-opentracing-tutorial-004" type="462c0819:PsiDirectoryNode" />
+              <item name="tutorial-04-sc-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="totorial04" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example-jeager-opentracing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example-jaeger-opentracing-tutorial-004" type="462c0819:PsiDirectoryNode" />
+              <item name="tutorial-04-sc-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example-jeager-opentracing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="example-jeager-opentracing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: io.opentracing.contrib:opentracing-concurrent:0.3.0" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="example-jeager-opentracing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: io.opentracing.contrib:opentracing-concurrent:0.3.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="opentracing-concurrent-0.3.0.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example-jeager-opentracing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: io.opentracing.contrib:opentracing-concurrent:0.3.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="opentracing-concurrent-0.3.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="concurrent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example-jeager-opentracing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: io.opentracing.contrib:opentracing-concurrent:0.3.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="opentracing-concurrent-0.3.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="example-jeager-opentracing" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: io.opentracing.contrib:opentracing-concurrent:0.3.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="opentracing-concurrent-0.3.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="opentracing-concurrent" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sayhiai.example.jaeger.totorial04.controller" />
+      <recent name="com.sayhiai.example.jaeger.totorial04" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tutorial-04-feign-client/src/main/java/com/sayhiai/example/jaeger/totorial04" />
+      <recent name="$PROJECT_DIR$/tutorial-04-feign-client/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.App (1)">
+    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sayhiai.example.jaeger.totorial04.App" />
+      <module name="tutorial-04-feign-client" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sayhiai.example.jaeger.totorial04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sayhiai.example.jaeger.totorial04.App" />
+      <module name="tutorial-04-sc-server" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sayhiai.example.jaeger.totorial04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Application.App" />
+      <item itemvalue="Application.App (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App (1)" />
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f08a5821-6ee0-4ad9-9ebf-d0c941b1b3a9" name="Default" comment="" />
+      <created>1557367470347</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557367470347</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1440" y="-157" width="1920" height="1006" extended-state="0" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" weight="0.32916668" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34763476" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info id="Designer" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49915683" visible="true" weight="0.24973376" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32916668" />
+      <window_info id="Structure" order="1" sideWeight="0.50084317" side_tool="true" weight="0.24973376" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/opentracing/contrib/opentracing-spring-cloud-feign-starter/0.3.0/opentracing-spring-cloud-feign-starter-0.3.0.jar!/io/opentracing/contrib/spring/cloud/feign/FeignContextBeanPostProcessor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/opentracing/contrib/opentracing-spring-cloud-feign-starter/0.3.0/opentracing-spring-cloud-feign-starter-0.3.0-sources.jar!/io/opentracing/contrib/spring/cloud/feign/FeignContextBeanPostProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="103">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/github/openfeign/opentracing/feign-opentracing/0.3.0/feign-opentracing-0.3.0.jar!/feign/opentracing/TracingClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/github/openfeign/opentracing/feign-opentracing/0.3.0/feign-opentracing-0.3.0-sources.jar!/feign/opentracing/TracingClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-570">
+          <caret line="34" column="28" selection-start-line="34" selection-start-column="28" selection-end-line="34" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/opentracing/contrib/opentracing-spring-cloud-feign-starter/0.3.0/opentracing-spring-cloud-feign-starter-0.3.0-sources.jar!/io/opentracing/contrib/spring/cloud/feign/TracingClientBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/opentracing/contrib/opentracing-spring-cloud-feign-starter/0.3.0/opentracing-spring-cloud-feign-starter-0.3.0-sources.jar!/io/opentracing/contrib/spring/cloud/feign/TraceFeignContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="85" column="25" selection-start-line="85" selection-start-column="25" selection-end-line="85" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/github/openfeign/feign-core/10.1.0/feign-core-10.1.0.jar!/feign/Client.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/opentracing/contrib/opentracing-spring-cloud-feign-starter/0.3.0/opentracing-spring-cloud-feign-starter-0.3.0-sources.jar!/io/opentracing/contrib/spring/cloud/feign/FeignTracingAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="85" column="69" selection-start-line="85" selection-start-column="69" selection-end-line="85" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/opentracing/contrib/opentracing-spring-web/2.1.0/opentracing-spring-web-2.1.0.jar!/io/opentracing/contrib/spring/web/client/HttpHeadersCarrier.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/opentracing/contrib/opentracing-web-servlet-filter/0.3.0/opentracing-web-servlet-filter-0.3.0.jar!/io/opentracing/contrib/web/servlet/filter/TracingFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/opentracing/contrib/opentracing-spring-web/2.1.0/opentracing-spring-web-2.1.0-sources.jar!/io/opentracing/contrib/spring/web/client/WebClientSpanDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="30" column="17" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/opentracing/contrib/opentracing-spring-web/2.1.0/opentracing-spring-web-2.1.0-sources.jar!/io/opentracing/contrib/spring/web/client/TracingWebClientBeanPostProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="48" column="22" lean-forward="true" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/opentracing/contrib/opentracing-spring-web/2.1.0/opentracing-spring-web-2.1.0-sources.jar!/io/opentracing/contrib/spring/web/client/TracingRestTemplateInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="686">
+          <caret line="106" column="14" selection-start-line="106" selection-start-column="14" selection-end-line="106" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/opentracing/contrib/opentracing-spring-web/2.1.0/opentracing-spring-web-2.1.0-sources.jar!/io/opentracing/contrib/spring/web/client/TracingExchangeFilterFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="31" column="13" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.5.RELEASE/spring-webmvc-5.1.5.RELEASE.jar!/org/springframework/web/servlet/handler/HandlerInterceptorAdapter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/opentracing/contrib/opentracing-spring-web/2.1.0/opentracing-spring-web-2.1.0-sources.jar!/io/opentracing/contrib/spring/web/interceptor/TracingHandlerInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-389">
+          <caret line="97" column="23" lean-forward="true" selection-start-line="97" selection-start-column="23" selection-end-line="97" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/opentracing/contrib/opentracing-web-servlet-filter/0.3.0/opentracing-web-servlet-filter-0.3.0-sources.jar!/io/opentracing/contrib/web/servlet/filter/ServletFilterSpanDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-36">
+          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/opentracing/contrib/opentracing-spring-web-starter/2.1.0/opentracing-spring-web-starter-2.1.0.jar!/io/opentracing/contrib/spring/web/starter/WebTracingProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/opentracing/contrib/opentracing-spring-web-starter/2.1.0/opentracing-spring-web-starter-2.1.0.jar!/io/opentracing/contrib/spring/web/starter/client/TracingRestTemplateCustomizer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="34" column="36" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/opentracing/contrib/opentracing-spring-web-starter/2.1.0/opentracing-spring-web-starter-2.1.0.jar!/io/opentracing/contrib/spring/web/starter/RestTemplateTracingAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/opentracing/contrib/opentracing-spring-web-starter/2.1.0/opentracing-spring-web-starter-2.1.0.jar!/io/opentracing/contrib/spring/web/starter/SkipPatternAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.16/tomcat-embed-core-9.0.16.jar!/javax/servlet/ServletRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/opentracing/contrib/opentracing-web-servlet-filter/0.3.0/opentracing-web-servlet-filter-0.3.0-sources.jar!/io/opentracing/contrib/web/servlet/filter/TracingFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="86" column="31" selection-start-line="86" selection-start-column="31" selection-end-line="86" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/opentracing/contrib/opentracing-spring-web-starter/2.1.0/opentracing-spring-web-starter-2.1.0.jar!/io/opentracing/contrib/spring/web/starter/ServerTracingAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="97" lean-forward="true" selection-start-line="97" selection-end-line="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/github/openfeign/opentracing/feign-opentracing/0.3.0/feign-opentracing-0.3.0-sources.jar!/feign/opentracing/FeignSpanDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/github/openfeign/opentracing/feign-opentracing/0.3.0/feign-opentracing-0.3.0-sources.jar!/feign/opentracing/HttpHeadersInjectAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="28" column="27" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/opentracing/contrib/opentracing-spring-web/2.1.0/opentracing-spring-web-2.1.0-sources.jar!/io/opentracing/contrib/spring/web/client/HttpHeadersCarrier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="37" column="12" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/opentracing/contrib/opentracing-spring-web/2.1.0/opentracing-spring-web-2.1.0-sources.jar!/io/opentracing/contrib/spring/web/client/RestTemplateSpanDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="79" column="35" selection-start-line="79" selection-start-column="35" selection-end-line="79" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/opentracing/contrib/opentracing-spring-web/2.1.0/opentracing-spring-web-2.1.0-sources.jar!/io/opentracing/contrib/spring/web/client/TracingAsyncRestTemplateInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-372">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/opentracing/contrib/opentracing-spring-web/2.1.0/opentracing-spring-web-2.1.0-sources.jar!/io/opentracing/contrib/spring/web/client/TracingClientResponseMono.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="36" column="6" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/opentracing/contrib/opentracing-spring-web/2.1.0/opentracing-spring-web-2.1.0-sources.jar!/io/opentracing/contrib/spring/web/client/TracingClientResponseSubscriber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="34" column="6" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/opentracing/contrib/opentracing-spring-web/2.1.0/opentracing-spring-web-2.1.0-sources.jar!/io/opentracing/contrib/spring/web/interceptor/HandlerInterceptorSpanDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="139" lean-forward="true" selection-start-line="139" selection-end-line="139" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/opentracing/contrib/opentracing-spring-web-starter/2.1.0/opentracing-spring-web-starter-2.1.0.jar!/io/opentracing/contrib/spring/web/starter/WebFluxTracingAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="44" column="29" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter/2.1.1.RELEASE/spring-cloud-starter-2.1.1.RELEASE.jar!/META-INF/maven/org.springframework.cloud/spring-cloud-starter/pom.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter/2.1.1.RELEASE/spring-cloud-starter-2.1.1.RELEASE.jar!/META-INF/maven/org.springframework.cloud/spring-cloud-starter/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter/2.1.1.RELEASE/spring-cloud-starter-2.1.1.RELEASE.jar!/META-INF/spring.provides">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter-openfeign/2.1.1.RELEASE/spring-cloud-starter-openfeign-2.1.1.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="78" column="46" lean-forward="true" selection-start-line="78" selection-start-column="46" selection-end-line="78" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/io/opentracing/contrib/opentracing-spring-jaeger-cloud-starter/2.0.0/opentracing-spring-jaeger-cloud-starter-2.0.0.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/io/opentracing/contrib/opentracing-spring-jaeger-parent/2.0.0/opentracing-spring-jaeger-parent-2.0.0.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="97" column="29" selection-start-line="97" selection-start-column="29" selection-end-line="97" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/opentracing/contrib/opentracing-spring-jaeger-cloud-starter/2.0.0/opentracing-spring-jaeger-cloud-starter-2.0.0.jar!/META-INF/maven/io.opentracing.contrib/opentracing-spring-jaeger-cloud-starter/pom.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/opentracing/contrib/opentracing-spring-jaeger-cloud-starter/2.0.0/opentracing-spring-jaeger-cloud-starter-2.0.0.jar!/META-INF/maven/io.opentracing.contrib/opentracing-spring-jaeger-cloud-starter/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-18" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/opentracing/contrib/opentracing-spring-jaeger-starter/2.0.0/opentracing-spring-jaeger-starter-2.0.0.jar!/META-INF/maven/io.opentracing.contrib/opentracing-spring-jaeger-starter/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-532" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/opentracing/contrib/opentracing-spring-jaeger-starter/2.0.0/opentracing-spring-jaeger-starter-2.0.0.jar!/META-INF/maven/io.opentracing.contrib/opentracing-spring-jaeger-starter/pom.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/opentracing/contrib/opentracing-spring-jaeger-starter/2.0.0/opentracing-spring-jaeger-starter-2.0.0.jar!/META-INF/spring.factories">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/opentracing/contrib/opentracing-spring-jaeger-starter/2.0.0/opentracing-spring-jaeger-starter-2.0.0.jar!/io/opentracing/contrib/java/spring/jaeger/starter/JaegerAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1389">
+          <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/opentracing/contrib/opentracing-spring-web-starter/2.1.0/opentracing-spring-web-starter-2.1.0.jar!/META-INF/maven/io.opentracing.contrib/opentracing-spring-web-starter/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1242" />
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/opentracing/contrib/opentracing-concurrent/0.3.0/opentracing-concurrent-0.3.0.jar!/io/opentracing/contrib/concurrent/TracedScheduledExecutorService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/opentracing/contrib/opentracing-concurrent/0.3.0/opentracing-concurrent-0.3.0.jar!/META-INF/maven/io.opentracing.contrib/opentracing-concurrent/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/opentracing/contrib/opentracing-concurrent/0.3.0/opentracing-concurrent-0.3.0.jar!/io/opentracing/contrib/concurrent/TracedCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/opentracing/contrib/opentracing-concurrent/0.3.0/opentracing-concurrent-0.3.0.jar!/io/opentracing/contrib/concurrent/TracedExecutor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

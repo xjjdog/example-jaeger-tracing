@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/example-jaeger-opentracing-tutorial-001-002.iml" filepath="$PROJECT_DIR$/example-jaeger-opentracing-tutorial-001-002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tutorial-01/tutorial-01.iml" filepath="$PROJECT_DIR$/tutorial-01/tutorial-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tutorial-02/tutorial-02.iml" filepath="$PROJECT_DIR$/tutorial-02/tutorial-02.iml" />
+    </modules>
+  </component>
+</project>

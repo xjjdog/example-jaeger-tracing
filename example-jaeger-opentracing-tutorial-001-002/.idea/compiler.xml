@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="tutorial-01" />
+        <module name="tutorial-02" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="example-jaeger-opentracing-tutorial-001-002" target="1.8" />
+      <module name="tutorial-01" target="1.8" />
+      <module name="tutorial-02" target="1.8" />
+      <module name="tutorial-03-rpc0" target="1.8" />
+      <module name="tutorial-03-rpc1" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

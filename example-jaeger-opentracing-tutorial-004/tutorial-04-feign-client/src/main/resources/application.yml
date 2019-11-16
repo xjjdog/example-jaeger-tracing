@@ -1,0 +1,59 @@
+info:
+  author: xjjdog
+server:
+  port: 9999
+  context-path: /
+  tomcat:
+    basedir: .
+    accesslog:
+      enabled: true
+      pattern: "%{X-Forwarded-For}i %a %{X-B3-TraceId}i %t %m %U %s %b %D"
+      rename-on-rotate: true
+      suffix: .log
+      prefix: access
+      rotate: true
+      buffered: false
+      file-date-format: yyyy-MM-dd
+    uri-encoding: UTF-8
+
+spring:
+  application:
+    name: main-client-application
+  http:
+    encoding:
+      charset: UTF-8
+      force: true
+      enabled: true
+  aop:
+    proxyTargetClass: true
+    auto: true
+  jmx:
+    enabled: true
+
+  cloud:
+    consul:
+      host: 127.0.0.1
+      port: 8500
+      discovery:
+        register: true
+        tags: version=1.0,author=xjjdog
+        healthCheckPath: /actuator/health
+        healthCheckInterval: 5s
+
+
+
+feign:
+  hystrix:
+    enabled: false
+
+ribbon:
+  ReadTimeout: 8000
+  ConnectTimeout: 1000
+  OkToRetryOnAllOperations: true
+  MaxAutoRetriesNextServer: 2
+  MaxAutoRetries: 0
+  ServerListRefreshInterval: 3000
+  retryableStatusCodes: 404,500
+
+opentracing.jaeger.http-sender.url: http://10.30.94.8:14268/api/traces
+opentracing.jaeger.log-spans: true

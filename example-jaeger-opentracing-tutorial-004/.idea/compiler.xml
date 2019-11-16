@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="tutorial-04-feign-client" />
+        <module name="tutorial-04-sc-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="example-jeager-opentracing" target="1.8" />
+      <module name="tutorial-04-feign-client" target="1.8" />
+      <module name="tutorial-04-sc-server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

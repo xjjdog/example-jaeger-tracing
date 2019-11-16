@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/example-jeager-opentracing.iml" filepath="$PROJECT_DIR$/example-jeager-opentracing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tutorial-04-feign-client/tutorial-04-feign-client.iml" filepath="$PROJECT_DIR$/tutorial-04-feign-client/tutorial-04-feign-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tutorial-04-sc-server/tutorial-04-sc-server.iml" filepath="$PROJECT_DIR$/tutorial-04-sc-server/tutorial-04-sc-server.iml" />
+    </modules>
+  </component>
+</project>
